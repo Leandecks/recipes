@@ -1,0 +1,22 @@
+html,
+body {
+  background-color: lightblue;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1,h2,img {
+  text-align: center;
+}
+
+h1 {
+  color: brown;
+}
+
+h2 {
+  color: rgb(27, 27, 164);
+}
+
+img {
+  height: 500px;
+  width: auto;
+}
