@@ -1,7 +1,7 @@
 html,
 body {
   background-color: lightblue;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Patrick Hand', cursive;
 }
 
 h1,h2,img {
@@ -17,6 +17,18 @@ h2 {
 }
 
 img {
-  height: 500px;
+  height: 200px;
   width: auto;
+  border: solid 0.5rem blueviolet;
+}
+
+.wrap {
+  text-align: center;
+}
+
+.container {
+  border: solid .25rem rgb(42, 110, 104);
+  background-color: antiquewhite;
+  padding: 1rem;
+  margin: 1rem;
 }
