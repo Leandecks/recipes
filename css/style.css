@@ -1,8 +1,26 @@
+html {
+  height: 100%;
+}
+
+.wrapper {
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex: auto;
+}
+
+.wrapper > * {
+  flex: 1;
+}
+
 body {
   font-family: 'Patrick Hand', cursive;
   font-weight: bold;
+  height: 90%;
   color: rgb(11, 20, 31);
   background-color: lightblue;
+  font-size: 2rem;
 }
 
 h1 {
@@ -22,10 +40,12 @@ a:hover {
   color: rgb(0, 115, 255);
 }
 
-div {
+div > div {
   border: solid rgb(49, 84, 82);
-  padding: 1rem;
   text-align: center;
   margin: 1rem;
   background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
