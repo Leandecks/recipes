@@ -32,3 +32,16 @@ img {
   padding: 1rem;
   margin: 1rem;
 }
+
+p.back a {
+  color: rgb(27, 27, 164);
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: all 300ms ease;
+  text-decoration: none;
+}
+
+p.back a:hover {
+  text-decoration: underline;
+  color: rgb(0, 115, 255);
+}

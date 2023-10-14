@@ -49,3 +49,7 @@ div > div {
   justify-content: center;
   align-items: center;
 }
+
+footer {
+  text-align: center;
+}
